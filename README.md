@@ -13,3 +13,17 @@
   <li>Css</li>
   <li>jS</li>
 </ul>
+
+
+<h2>problem 3</h2>
+<p>In this file, we have to come up with these results without using numbers, only through the variables available to us</p>
+<h4>We used</h4>
+<ul>
+  <li>Html</li>
+  <li>Css</li>
+  <li>jS</li>
+</ul>
+
+
+
+
