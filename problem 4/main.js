@@ -31,7 +31,19 @@ calculate(20, 30); // 50
 calculate(20, 30, 'add'); // 50
 calculate(20, 30, 'subtract'); // -10
 calculate(20, 30, 'multiply'); // 600
-
+// -------------------------------------------------------------------------------------------
+function createSelectBox(startYear, endYear) {
+  for (let i = startYear; i <= endYear; i++) {
+    let select = document.createElement("select")
+    let option = document.createElement("option")
+    let optionText = document.createTextNode(i)
+    option.appendChild(optionText)
+    select.appendChild(option)
+    document.body.appendChild(select)
+    
+  }
+}
+createSelectBox(2000, 2021);
 
 
 
