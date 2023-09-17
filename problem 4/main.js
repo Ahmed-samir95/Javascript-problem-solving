@@ -52,9 +52,12 @@ function addition(num1) {
 console.log(addition(1)); // 2
 console.log(addition(4)); // 5
 console.log(addition(-1)); // 0
-
-
-
+// ------------------------------------------------------------------------------
+function remainder(num1, num2) {
+  return num1 % num2
+}
+console.log(remainder(1, 3)); // 1
+console.log(remainder(-9, 45)); // -9
 
 
 
