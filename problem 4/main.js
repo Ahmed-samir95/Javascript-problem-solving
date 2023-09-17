@@ -44,9 +44,14 @@ function createSelectBox(startYear, endYear) {
   }
 }
 createSelectBox(2000, 2021);
+// ---------------------------------------------------------------------------------------
+function addition(num1) {
+  return  num1 += 1
+}
 
-
-
+console.log(addition(1)); // 2
+console.log(addition(4)); // 5
+console.log(addition(-1)); // 0
 
 
 
