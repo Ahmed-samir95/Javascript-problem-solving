@@ -58,8 +58,11 @@ function remainder(num1, num2) {
 }
 console.log(remainder(1, 3)); // 1
 console.log(remainder(-9, 45)); // -9
-
-
-
+// -------------------------------------------------------------------------------------------
+// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+function EvenOrOdd(num) {
+  return num % 2 == 0 ? "Even" : "Odd"
+}
+console.log(EvenOrOdd(2))
 
 
