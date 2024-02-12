@@ -64,5 +64,9 @@ function EvenOrOdd(num) {
   return num % 2 == 0 ? "Even" : "Odd"
 }
 console.log(EvenOrOdd(2))
-
-
+// ----------------------------------------------------------------------------------------
+// We need a function that can transform a number (integer) into a string.
+function numberToString(num) {
+  return num.toString()
+}
+console.log(numberToString(123))
