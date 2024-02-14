@@ -70,3 +70,18 @@ function numberToString(num) {
   return num.toString()
 }
 console.log(numberToString(123))
+// --------------------------------------------------------------------------------------
+// Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
+function opposite(num) {
+  return -num
+}
+console.log(opposite(-14));
+
+
+
+
+
+
+
+
+
