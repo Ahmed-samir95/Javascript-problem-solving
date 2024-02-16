@@ -85,6 +85,11 @@ console.log(solution("ahmed"));
 function makeNegative(num) {
   return num < 0 ? num : -num
 }
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+function boolToWord( bool ){
+  return bool === true ? "Yes" : "No"
+}
+
 
 
 
