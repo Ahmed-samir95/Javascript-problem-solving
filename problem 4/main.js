@@ -105,7 +105,19 @@ function repeatStr (n, s) {
   return s.repeat(n);
 }
 console.log(repeatStr(5, "hello"));
+// It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry about strings with less than two characters.
+function removeChar(str){
+  //You got this!
+  // return str.length > 2 ? str.split("").shift().pop().join("") : str;
+  // if (str.length > 2) {
+  //   return str.split("").shift().join("")
+  // } else {
+  //   return str
+  // }
+  return str.slice(1, -1);
 
+ };
+console.log(removeChar("ahmed"));
 
 
 
