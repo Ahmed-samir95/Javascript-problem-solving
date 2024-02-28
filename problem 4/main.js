@@ -136,10 +136,14 @@ var summation = function (num) {
   return res;
 }
 console.log(summation(2));
-
-
-
-
+// Extract the letters, exclude the numbers, and combine the letters to form a word
+let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"]; // Elzero
+let st = mix.map((el)=>{
+  return isNaN(parseInt(el)) ? el : ""
+}).reduce((acc, cur)=>{
+  return acc + cur
+})
+console.log(st);
 
 
 
