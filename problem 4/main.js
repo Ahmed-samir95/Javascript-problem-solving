@@ -144,10 +144,14 @@ let st = mix.map((el)=>{
   return acc + cur
 })
 console.log(st);
-
-
-
-
+// Extract the numbers and exclude the letters, then convert the positive numbers to negative and vice versa
+let numsAndStrings = [1, 10, -10, -20, 5, "A", 3, "B", "C"]; // [-1, -10, 10, 20, -5, -3]
+let conv = numsAndStrings.filter((el)=>{
+  return !isNaN(parseInt(el))
+}).map((ele)=>{
+  return -ele
+})
+console.log(conv);
 
 
 
