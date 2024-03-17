@@ -167,6 +167,56 @@ console.log(member.age); // 38
 console.log(member.country); // Egypt
 console.log(member.fullDetails());
 // My Name Is Elzero, My Age Is 38, I Live in Egypt
+// -----------------------------------------------------------------------------------------
 
+// The Object To Work With
+let myFavGames = {
+  "Trinity Universe": {
+    publisher: "NIS America",
+    price: 40,
+  },
+  "Titan Quest": {
+    publisher: "THQ",
+    bestThree: {
+      one: "Immortal Throne",
+      two: "Ragnarök",
+      three: "Atlantis",
+    },
+    price: 50,
+  },
+  YS: {
+    publisher: "Falcom",
+    bestThree: {
+      one: "Oath in Felghana",
+      two: "Ark Of Napishtim",
+      three: "origin",
+    },
+    price: 40,
+  },
+};
+// ---------------------------------------------------------------------------------
+// The main Object contains Three Nested Objects
+// They are similar in every way except that one of them does not have game versions
+// Loop For should only be used to loop elements
+// All you have to do is solve the instructions and fill in the blanks to reach the desired result
+// You should not change the structure of the code. All you have to do is write your own code in place of the question marks
 
+// Code One => How To Get Object Length ?
+let objectLength = Object.keys(myFavGames).length;
+console.log(objectLength);
+
+for (let i = 0; i < objectLength; i++) {
+  console.log(`The Game Name Is ${Object.keys(myFavGames)[i]}`);
+  console.log(`The Publisher Is `);
+  console.log(`The Price Is ???????`);
+
+  // Check If Nested Object Has Property (bestThree)
+  // if (???????) {
+  //   console.log("- Game Has Releases");
+  //   console.log(`First => ???????`);
+  //   console.log(`Second => ???????`);
+  //   console.log(`Third => ???????`);
+  // }
+  console.log("#".repeat(20));
+}
 
