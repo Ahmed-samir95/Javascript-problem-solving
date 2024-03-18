@@ -206,17 +206,10 @@ let objectLength = Object.keys(myFavGames).length;
 console.log(objectLength);
 
 for (let i = 0; i < objectLength; i++) {
-  console.log(`The Game Name Is ${Object.keys(myFavGames)[i]}`);
-  console.log(`The Publisher Is `);
-  console.log(`The Price Is ???????`);
-
-  // Check If Nested Object Has Property (bestThree)
-  // if (???????) {
-  //   console.log("- Game Has Releases");
-  //   console.log(`First => ???????`);
-  //   console.log(`Second => ???????`);
-  //   console.log(`Third => ???????`);
-  // }
+  let myga = Object.keys(myFavGames)[i]
+  console.log(`The Game Name Is ${myga}`);
+  console.log(`The Publisher Is ${myFavGames[myga].publisher}`);
+  console.log(`The Price Is ${myFavGames[myga].price}`);
   console.log("#".repeat(20));
 }
 
